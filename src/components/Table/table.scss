@@ -1,0 +1,25 @@
+.pagination {
+  margin-top: 1rem;
+  text-align: center;
+
+  > * {
+    margin: 0 0.5rem;
+  }
+}
+
+.table__header {
+  background-color: orange;
+}
+
+.card__header {
+  span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .padding {
+    padding: 3rem;
+  }
+}
